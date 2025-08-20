@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@layer base {
+	body {
+		@apply bg-black text-white;
+	}
+	a {
+		@apply text-violet-300 underline underline-offset-4;
+	}
+}
