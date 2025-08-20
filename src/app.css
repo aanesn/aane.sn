@@ -2,9 +2,21 @@
 
 @layer base {
 	body {
-		@apply bg-black text-white;
+		@apply bg-black font-manrope text-white;
 	}
 	a {
 		@apply text-violet-300 underline underline-offset-4;
 	}
+}
+
+@theme {
+	--font-manrope: "Manrope", sans-serif;
+}
+
+@font-face {
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: 200 800;
+	font-display: swap;
+	src: url("/fonts/Manrope-VariableFont_wght.ttf") format("truetype");
 }
