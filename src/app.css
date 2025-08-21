@@ -7,6 +7,21 @@
 	a {
 		@apply text-violet-300 underline underline-offset-4;
 	}
+	section {
+		@apply mt-10 flex flex-col;
+	}
+	h2 {
+		@apply text-lg font-medium;
+	}
+	p {
+		@apply mt-2;
+	}
+	ul {
+		@apply mt-2;
+	}
+	li {
+		@apply flex flex-col gap-y-1;
+	}
 }
 
 @theme {
