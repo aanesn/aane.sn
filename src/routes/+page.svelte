@@ -7,8 +7,8 @@
 	<section>
 		<h2>whoami</h2>
 		<p>
-			currently a cs undergrad at mcgill trying to build something useful. i think ml, hacking
-			and infrastructure is interesting.
+			currently a cs undergrad at mcgill trying to build something useful. i find ml, hacking
+			and infrastructure interesting.
 		</p>
 	</section>
 	<section>
